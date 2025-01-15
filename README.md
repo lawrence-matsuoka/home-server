@@ -28,6 +28,8 @@ https://www.derekseaman.com/2023/10/home-assistant-proxmox-ve-8-0-quick-start-gu
 ### Stacks = Docker compose in Portainer
 https://www.portainer.io/blog/stacks-docker-compose-the-portainer-way
 
+## Managed Switch (Netgear M4100-26G-POE)
+
 ## Access Points (WS-AP3825i)
 - [Reddit: Extreme Networks WS-AP3825i setup tutorial](https://www.reddit.com/r/openwrt/comments/1e0otf7/extreme_networks_wsap3825i_setup_tutorial/)
 - [OpenWrt: Extreme Networks WS-AP3825i / WS-AP3825E](https://openwrt.org/toh/extreme_networks/ws-ap3825i)
