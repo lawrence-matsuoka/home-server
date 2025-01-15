@@ -2,7 +2,8 @@
 
 ## Goal
 - self-host and run services
-- learn about system administration, networking, Docker, and more
+- utilize open source software and cut back on my reliance of third party services or hardware
+- learn about networking, security, system administration, Docker, Proxmox, and more
 - learn about penetration testing and security vulnerabilities by trying to hack my home servers
 - improve the wi-fi connection in my bedroom
 
