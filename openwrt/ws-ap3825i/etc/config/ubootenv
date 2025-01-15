@@ -1,0 +1,11 @@
+config ubootenv
+option dev '/dev/mtdblock8'
+option offset '0x0'
+option envsize '0x10000'
+option secsize '0x20000'
+ 
+config ubootenv
+option dev '/dev/mtdblock7'
+option offset '0x0'
+option envsize '0x10000'
+option secsize '0x20000'
