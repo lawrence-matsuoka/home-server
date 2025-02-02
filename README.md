@@ -19,6 +19,8 @@ iperf
 ## Router
 
 ## TrueNAS Scale
+One pool with RAIDZ1
+https://www.youtube.com/watch?v=3T5wBZOm4hY
 
 ## Proxmox Cluster
 
