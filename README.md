@@ -1,4 +1,4 @@
-# testbed-server
+#testbed-server
 
 ## Background
 This repository is meant as documentation for my home servers, with information on hardware, software, and services I well be self-hosting, in an attempt to learn more about systems administration, networking, security, and specific software like Docker and Proxmox. This is a shared network with my partner and roommates and there are limitations with both hardware and the level of tinkering. My goal is to utilize primarily open source software and cheaper hardware I can get second hand off FaceBook Marketplace or eBay to tinker and cut back on my reliance of third party services such as cloud providers, streaming services, and other subscription services. I will also be exploring penetration testing and attempting to uncover security vulnerabilities in my home servers to learn how to defend myself and systems from such risks. Most of these ideas were sprouted by poor Wi-Fi connection to my bedroom and initially using a Raspberry Pi 3B+ as an access point.
@@ -17,6 +17,8 @@ iperf
 ![alt text](example-network.png)
 
 ## Router
+Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 
+Advanced DMZ vs PPPoE for the Bell Gigahub
 
 ## TrueNAS Scale
 One pool with RAIDZ1
