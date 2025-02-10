@@ -19,7 +19,7 @@
         <mxCell id="jQjBUP747iZEK8PiLITo-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.modem;" parent="1" vertex="1">
           <mxGeometry x="460" y="260" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-6" value="Bell GigaHub Advanced DMZ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="jQjBUP747iZEK8PiLITo-6" value="Bell GigaHub Advanced DMZ or PPPoE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="590" y="260" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jQjBUP747iZEK8PiLITo-7" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" parent="1" vertex="1">
@@ -61,19 +61,19 @@
         <mxCell id="GjfVkco9CjI6PsuyNRYr-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="360" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-14" value="Lenovo ThinkCentre M700" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-14" value="Lenovo ThinkCentre M700&lt;div&gt;- Intel i5-6500&lt;/div&gt;&lt;div&gt;- 16GB DDR4 RAM&lt;/div&gt;&lt;div&gt;- 1x 960GB SSD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="220" y="1020" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-15" value="Lenovo ThinkCentre E31&lt;div&gt;- Intel Xeon&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 32GB ECC DDR3 RAM&lt;/div&gt;&lt;div&gt;- x1 Boot SSD&lt;/div&gt;&lt;div&gt;- x3 500GB HDD in ZFS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-15" value="Lenovo ThinkCentre E31&lt;div&gt;- Intel Xeon E3-1245 V2&lt;/div&gt;&lt;div&gt;- 32GB ECC DDR3 RAM&lt;/div&gt;&lt;div&gt;- x1 Boot SSD&lt;/div&gt;&lt;div&gt;- x3 500GB HDD in ZFS RAIDZ1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="671.5" y="1020" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-16" value="OPNSense&lt;div&gt;Pi Hole&lt;/div&gt;&lt;div&gt;Wireguard VPN&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-16" value="OPNSense&lt;div&gt;Pi Hole&lt;/div&gt;&lt;div&gt;Wireguard VPN&lt;/div&gt;&lt;div&gt;Unbound DNS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="630" y="350" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-17" value="Netgear Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-17" value="Netgear M4100-26G-POE Managed PoE Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="572.5" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-18" value="TP-Link 8 port gigabit POE switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-18" value="TP-Link TL-1008P PoE Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="418.75" y="794.5" width="182.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GjfVkco9CjI6PsuyNRYr-19" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.disk;" vertex="1" parent="1">
@@ -93,6 +93,9 @@
         </mxCell>
         <mxCell id="GjfVkco9CjI6PsuyNRYr-25" value="Kali Linux VM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="219" y="502" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-26" value="Extreme Networks WS-AP3825i Wireless Access Point flashed with OpenWrt (ip)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="690" width="225" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

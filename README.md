@@ -14,6 +14,7 @@ scapy
 iperf
 
 ## Network Diagram
+This is a network diagram showing the hardware and planned services that will be hosted (subject to change). VLAN with roommates, Router, APs, 
 ![alt text](example-network.png)
 
 ## Router
