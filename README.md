@@ -17,6 +17,10 @@ iperf
 This is a network diagram showing the hardware and planned services that will be hosted (subject to change). VLAN with roommates, Router, APs, 
 ![alt text](example-network.png)
 
+physical connection
+vlans and layer 2 domains
+subnets and layer 3 connectivity
+
 ## Router
 Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 
 Advanced DMZ vs PPPoE for the Bell Gigahub
