@@ -25,6 +25,40 @@ subnets and layer 3 connectivity
 Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 
 Advanced DMZ vs PPPoE for the Bell Gigahub
 
+### OPNSense
+The GUI can be found at https://192.168.1.1
+
+#### [AdGuard Home](https://github.com/AdguardTeam/AdGuardHomehttps://github.com/AdguardTeam/AdGuardHome)
+
+https://0x2142.com/how-to-set-up-adguard-on-opnsense/
+
+We are installing AdGuard Home (AGH) onto the OPNSense box to get network-wide blocking of ads and tracking. 
+- In the GUI, enable SSH by going to System -> Settings -> Administration -> Enable Secure Shell
+- SSH into the router
+`ssh root@192.168.1.1`
+- Once signed in, select option 8) Shell
+- Fetch [opn-repo](https://github.com/mimugmail/opn-repo), since AGH is not available by default in the OPNSense plugins repository
+`fetch -o /usr/local/etc/pkg/repos/mimugmail.conf https://www.routerperformance.net/mimugmail.conf`
+`pkg update`
+- In the GUI, go to System -> Firmware -> Plugins and install "os-adguardhome-maxit"
+- Then go to Services -> Adguardhome -> General and check the box to enable it
+
+The AGH GUI can be found at http://192.168.1.1:3000
+- In the Admin Web Interface section, set the Listen interface to the LAN network (in my case, igb0 - 192.168.1.1) and the port to 3000
+- Do the same for the DNS server section, but set the port to 65353
+- Setup a username and password
+- Login to the AGH dashboard
+
+Navigate to Filters -> DNS blocklists
+- OISD Blocklist Small
+- HaGeZi's Pro++
+
+Back to OPNSense GUI
+- Services -> ISC DHCPv4 -> DNS servers -> "192.168.1.1"
+- Services -> Unbound DNS -> Query Forwarding 
+Add new, set server IP and port to AGH (192.168.1.1 and 65353)
+
+
 ## Managed Switch (Netgear M4100-26G-POE)
 
 ## TrueNAS Scale
