@@ -28,11 +28,15 @@ Advanced DMZ vs PPPoE for the Bell Gigahub
 ### OPNSense
 The GUI can be found at https://192.168.1.1
 
+#### Unbound DNS
+Enhance security and privacy, resolves DNS queries.
+Enabled by default in OPNSense. How to use with Bell Gigahub modem?
+
 #### [AdGuard Home](https://github.com/AdguardTeam/AdGuardHomehttps://github.com/AdguardTeam/AdGuardHome)
 
 https://0x2142.com/how-to-set-up-adguard-on-opnsense/
 
-We are installing AdGuard Home (AGH) onto the OPNSense box to get network-wide blocking of ads and tracking. 
+We are installing AdGuard Home (AGH) onto the OPNSense box to get network-wide blocking of ads and tracking. Focus on filtering and maintaining DNS cache.
 - In the GUI, enable SSH by going to System -> Settings -> Administration -> Enable Secure Shell
 - SSH into the router
 `ssh root@192.168.1.1`
@@ -57,6 +61,8 @@ Back to OPNSense GUI
 - Services -> ISC DHCPv4 -> DNS servers -> "192.168.1.1"
 - Services -> Unbound DNS -> Query Forwarding 
 Add new, set server IP and port to AGH (192.168.1.1 and 65353)
+
+#### WireGuard vs OpenVPN
 
 
 ## Managed Switch (Netgear M4100-26G-POE)
