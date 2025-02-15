@@ -23,7 +23,12 @@ subnets and layer 3 connectivity
 
 ## Router
 Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 
-Advanced DMZ vs PPPoE for the Bell Gigahub
+My initial plan was to put the Gigahub into [bridge mode](https://pon.wiki/guides/bridge-the-bce-inc-giga-hub/), however it seems that a recent firmware update has disabled this feature for non-business customers. 
+I decided to go with Advanced DMZ since it is simple to setup, and forward the network traffic from the Gigahub to the OPNSense box. From my understanding, this should minimize any Double NAT issues and have OPNSense control routing and firewall duties.
+
+### Bell model
+Access the GUI at https://192.168.2.1
+Enable Advanced DMZ and select the OPNSense router's mac address
 
 ### OPNSense
 The GUI can be found at https://192.168.1.1
@@ -62,7 +67,10 @@ Back to OPNSense GUI
 - Services -> Unbound DNS -> Query Forwarding 
 Add new, set server IP and port to AGH (192.168.1.1 and 65353)
 
-#### WireGuard vs OpenVPN
+#### WireGuard vs OpenVPN vs IPsec
+WireGuard is UDP only, but faster encryption
+OpenVPN supports TCP and UDP, 
+Every platform supports IPsec, not too useful for my use case
 
 
 ## Managed Switch (Netgear M4100-26G-POE)
