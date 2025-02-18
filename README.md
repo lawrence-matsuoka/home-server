@@ -24,11 +24,12 @@ subnets and layer 3 connectivity
 ## Router
 Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 
 My initial plan was to put the Gigahub into [bridge mode](https://pon.wiki/guides/bridge-the-bce-inc-giga-hub/), however it seems that a recent firmware update has disabled this feature for non-business customers. 
-I decided to go with Advanced DMZ since it is simple to setup, and forward the network traffic from the Gigahub to the OPNSense box. From my understanding, this should minimize any Double NAT issues and have OPNSense control routing and firewall duties.
+I decided to go with Advanced DMZ since it is simple to setup, and forward the network traffic from the Gigahub to the OPNSense box. From my understanding, this should minimize most Double NAT issues and set OPNSense to control routing and firewall duties.
 
 ### Bell model
 Access the GUI at https://192.168.2.1
 Enable Advanced DMZ and select the OPNSense router's mac address
+Disable Wi-Fi
 
 ### OPNSense
 The GUI can be found at https://192.168.1.1
@@ -74,6 +75,8 @@ Every platform supports IPsec, not too useful for my use case
 
 
 ## Managed Switch (Netgear M4100-26G-POE)
+Documents from Netgear
+
 
 ## TrueNAS Scale
 One pool with RAIDZ1
@@ -129,6 +132,10 @@ Reboot the system
 1. go to network -> wireless, and edit the SSIDs
 2. go to the wireless security tab under interface configuration
 3. set encryption to WPA2-PSK and set the Key (password)
+
+## Kali Linux VM
+### nmap
+Network scan of IP addresses to diagnose issues with the wireless access points after migrating to Advanced DMZ and the OPNSense router.
 
 ## TODO
 - UPS
