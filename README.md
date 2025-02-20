@@ -129,9 +129,10 @@ Reboot the system
 ### edit the config files using the ones provided in ./openwrt/etc/config then reboot the system
 
 ### Access LuCI by connecting to the static IP address of the access point
-1. go to network -> wireless, and edit the SSIDs
-2. go to the wireless security tab under interface configuration
+1. go to Network -> Wireless, and edit the SSIDs
+2. go to the Wireless Security tab under interface configuration
 3. set encryption to WPA2-PSK and set the Key (password)
+4. go to the WLAN roaming tab and enable 802.11r Fast Transition with FT over the Air
 
 ## Kali Linux VM
 ### nmap
