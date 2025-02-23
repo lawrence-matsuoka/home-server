@@ -122,6 +122,41 @@ https://www.youtube.com/watch?v=3T5wBZOm4hY
 
 ## Proxmox Cluster
 
+### 101 (minecraft) 
+Ubuntu server
+
+#### [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo docker run hello-world
+
+sudo usermod -aG docker $USER
+
+Log out and log back in and test with: `docker run hello-world`
+
+#### [Java Edition Server](https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server)
+- Create a directory for the container
+- cd into the directory and create the docker-compose.yml, the contents can be found in this repo's docker directory ([source](https://github.com/itzg/docker-minecraft-server?tab=readme-ov-file))
+- Start the container with `docker compose up -d`
+- Connect to the server with the <host internal ip address>:25565
+- Run `docker pull itzg/minecraft-server itzg/minecraft-server:<tag>` in the same directory to update the server, where <tag> is the specific minecraft version
+- Run `docker compose down`, then `docker compose up -d` to apply the update
+
+
 ### Docker and Portainer in Proxmox
 https://www.youtube.com/watch?v=wrlukx-QYRw&t=281s
 
