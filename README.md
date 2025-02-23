@@ -73,15 +73,46 @@ WireGuard is UDP only, but faster encryption
 OpenVPN supports TCP and UDP, 
 Every platform supports IPsec, not too useful for my use case
 
+#### VLAN
+
 
 ## Managed Switch (Netgear M4100-26G-POE)
 [Documentation from Netgear](https://www.netgear.com/support/product/m4100-26g-poe%20gsm7226lpv1h1/#docs)
+
+### VLAN
 
 ## TrueNAS Scale
 One pool with RAIDZ1
 https://www.youtube.com/watch?v=3T5wBZOm4hY
 
 [TrueNAS Scale: A Step-by-Step Guide to Dataset, Shares, and App Permissions](https://www.youtube.com/watch?v=59NGNZ0kO04)
+
+### Syncthing
+[Video by Lawrence Systems](https://www.youtube.com/watch?v=PCYvsLSStbA)
+
+### NextCloud
+
+### Paperless NGX
+
+### 2FAuth
+
+### HomePage
+
+### Portainer
+
+### Calibre
+
+### Calibre-web
+
+### FreshRSS
+
+### Immich
+
+### QBitTorrent
+
+### SearXNG
+
+### VaultWarden
 
 ## Proxmox Cluster
 
@@ -142,5 +173,5 @@ Network scan of IP addresses to diagnose issues with the wireless access points 
 ## TODO
 - UPS
 - Upgrade storage
-- Upgrade Jellyfin server to 7th gen intel or newer for improved transcoding
+- Upgrade Jellyfin server to 7th gen intel or newer for transcoding
 - Ollama/local LLM server with GPU (Tesla P40/P4/P100/P102-100, VRAM)
