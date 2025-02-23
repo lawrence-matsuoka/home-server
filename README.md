@@ -156,6 +156,21 @@ Log out and log back in and test with: `docker run hello-world`
 - Run `docker pull itzg/minecraft-server itzg/minecraft-server:<tag>` in the same directory to update the server, where <tag> is the specific minecraft version
 - Run `docker compose down`, then `docker compose up -d` to apply the update
 
+#### Publishing the Minecraft server
+
+##### [Setting up port forwarding in OPNSense](https://www.wundertech.net/how-to-port-forward-in-opnsense/)
+Firewall -> Port Forward
+- Create a new NAT rule
+- Set the interface as WAN
+- Protocol: TCP/UDP
+- Destination: WAN address
+- Destination port range: 
+  - from: (other) 25565
+  - to: (other) 25565
+- Redirect Target IP: <host local IP address>
+- Redirect Target Port: (other) 25565
+- Give the rule a description
+- Filter rule association: Add associated filter rule
 
 ### Docker and Portainer in Proxmox
 https://www.youtube.com/watch?v=wrlukx-QYRw&t=281s
