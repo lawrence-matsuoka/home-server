@@ -114,6 +114,12 @@ https://www.youtube.com/watch?v=3T5wBZOm4hY
 
 ### VaultWarden
 
+### Radarr
+### Sonarr
+### Lidarr
+### arr
+### Clonezilla
+
 ## Proxmox Cluster
 
 ### Docker and Portainer in Proxmox
@@ -127,6 +133,21 @@ https://www.derekseaman.com/2023/10/home-assistant-proxmox-ve-8-0-quick-start-gu
 
 ### Stacks = Docker compose in Portainer
 https://www.portainer.io/blog/stacks-docker-compose-the-portainer-way
+
+
+### VM1 Debian public
+
+### VM2 Debian private
+#### MakeMKV
+#### OpenMediaVault
+#### Nginx/Traefik
+#### The Lounge IRC
+#### Proxmox Backup Server
+
+### VM3 Home Assistant
+
+### VM4 Octoprint
+
 
 ## Access Points (WS-AP3825i)
 
@@ -174,4 +195,5 @@ Network scan of IP addresses to diagnose issues with the wireless access points 
 - UPS
 - Upgrade storage
 - Upgrade Jellyfin server to 7th gen intel or newer for transcoding
+- Moonlight/Sunshine setup for remote gaming
 - Ollama/local LLM server with GPU (Tesla P40/P4/P100/P102-100, VRAM)
