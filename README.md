@@ -75,12 +75,13 @@ Every platform supports IPsec, not too useful for my use case
 
 
 ## Managed Switch (Netgear M4100-26G-POE)
-Documents from Netgear
-
+[Documentation from Netgear](https://www.netgear.com/support/product/m4100-26g-poe%20gsm7226lpv1h1/#docs)
 
 ## TrueNAS Scale
 One pool with RAIDZ1
 https://www.youtube.com/watch?v=3T5wBZOm4hY
+
+[TrueNAS Scale: A Step-by-Step Guide to Dataset, Shares, and App Permissions](https://www.youtube.com/watch?v=59NGNZ0kO04)
 
 ## Proxmox Cluster
 
