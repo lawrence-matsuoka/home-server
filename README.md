@@ -105,6 +105,8 @@ https://www.youtube.com/watch?v=3T5wBZOm4hY
 ### Calibre-web
 
 ### FreshRSS
+[Video by Lawrence Systems](https://www.youtube.com/watch?v=wcof-Noho9Q)
+
 
 ### Immich
 
