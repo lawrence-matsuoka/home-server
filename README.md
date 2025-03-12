@@ -3,6 +3,12 @@
 ## Background
 This repository is meant as documentation for my home servers, with information on hardware, software, and services I well be self-hosting, in an attempt to learn more about systems administration, networking, security, and specific software like Docker and Proxmox. This is a shared network with my partner and roommates and there are limitations with both hardware and the level of tinkering. My goal is to utilize primarily open source software and cheaper hardware I can get second hand off FaceBook Marketplace or eBay to tinker and cut back on my reliance of third party services such as cloud providers, streaming services, and other subscription services. I will also be exploring penetration testing and attempting to uncover security vulnerabilities in my home servers to learn how to defend myself and systems from such risks. Most of these ideas were sprouted by poor Wi-Fi connection to my bedroom and initially using a Raspberry Pi 3B+ as an access point.
 
+## Learning Outcomes
+- TCP/IP
+- Server administration, maintenance, and configuration
+- Docker
+- Proxmox and TrueNAS
+- Wireshark and TCP Dump
 
 ansible and scripts to setup servers
 
@@ -107,7 +113,6 @@ https://www.youtube.com/watch?v=3T5wBZOm4hY
 ### FreshRSS
 [Video by Lawrence Systems](https://www.youtube.com/watch?v=wcof-Noho9Q)
 
-
 ### Immich
 
 ### QBitTorrent
@@ -187,18 +192,19 @@ https://www.derekseaman.com/2023/10/home-assistant-proxmox-ve-8-0-quick-start-gu
 https://www.portainer.io/blog/stacks-docker-compose-the-portainer-way
 
 
-### VM1 Debian public
+### VM1 Ubuntu public
+#### Migrate Minecraft server to Pterodactyl
 
-### VM2 Debian private
+### VM2 Ubuntu private
+#### Jellyfin
 #### MakeMKV
 #### OpenMediaVault
 #### Nginx/Traefik
 #### The Lounge IRC
 #### Proxmox Backup Server
+#### Octoprint
 
 ### VM3 Home Assistant
-
-### VM4 Octoprint
 
 
 ## Access Points (WS-AP3825i)
