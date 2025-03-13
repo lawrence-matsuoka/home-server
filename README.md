@@ -11,11 +11,8 @@ This repository is meant as documentation for my home servers, with information 
 - Wireshark and TCP Dump
 
 ansible and scripts to setup servers
-
-wireshark
 openstack
 kubernetes
-tcpdump
 scapy
 iperf
 
