@@ -9,20 +9,13 @@ This repository is meant as documentation for my home servers, with information 
 - Docker
 - Proxmox and TrueNAS
 - Wireshark and TCP Dump
-
-ansible and scripts to setup servers
-openstack
-kubernetes
-scapy
-iperf
+- Maybes: Ansible, Bash scripts, OpenStack, Kubernetes, ScaPy, iperf
 
 ## Network Diagram
 This is a network diagram showing the hardware and planned services that will be hosted (subject to change). VLAN with roommates, Router, APs, 
-![alt text](example-network.png)
+![My home network](network-diagram.png)
 
-physical connection
-vlans and layer 2 domains
-subnets and layer 3 connectivity
+This network diagram shows the physical connections between devices in my network. I may later add network diagrams for VLANS and layer 2 domains as well as another for subnets and layer 3 connectivity.
 
 ## Router
 Our current place is on Bell's Fibre network and uses a Bell Gigahub acting as our modem and router. I want to use another machine as our router running OPNSense. 

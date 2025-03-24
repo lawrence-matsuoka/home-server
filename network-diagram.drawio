@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
-    <mxGraphModel dx="529" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="830" width="160" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="jQjBUP747iZEK8PiLITo-1" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="465" y="150" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-3" value="Internet 500mb up/down" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="570" y="170" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
+        <mxCell id="jQjBUP747iZEK8PiLITo-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="jQjBUP747iZEK8PiLITo-1" source="jQjBUP747iZEK8PiLITo-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="250" as="sourcePoint" />
             <mxPoint x="510" y="210" as="targetPoint" />
@@ -19,83 +19,122 @@
         <mxCell id="jQjBUP747iZEK8PiLITo-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.modem;" parent="1" vertex="1">
           <mxGeometry x="460" y="260" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-6" value="Bell GigaHub Advanced DMZ or PPPoE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="590" y="260" width="200" height="30" as="geometry" />
+        <mxCell id="jQjBUP747iZEK8PiLITo-6" value="Bell GigaHub Advanced DMZ (192.168.2.1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="265" y="260" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jQjBUP747iZEK8PiLITo-7" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" parent="1" vertex="1">
-          <mxGeometry x="460" y="410" width="100" height="30" as="geometry" />
+          <mxGeometry x="460" y="425" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-9" value="Lenovo ThinkCentre M73&lt;div&gt;- i5 4750&lt;/div&gt;&lt;div&gt;- 8GB DDR3&lt;/div&gt;&lt;div&gt;- Boot SSD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="397.5" y="450" width="225" height="90" as="geometry" />
+        <mxCell id="jQjBUP747iZEK8PiLITo-9" value="Lenovo ThinkCentre M73 (192.168.1.1)&lt;div&gt;- i5 4750&lt;/div&gt;&lt;div&gt;- 8GB DDR3&lt;/div&gt;&lt;div&gt;- Boot SSD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="235" y="360" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jQjBUP747iZEK8PiLITo-10" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
-          <mxGeometry x="40" y="940" width="50" height="41" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="1" vertex="1">
+          <mxGeometry x="475" y="350" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;" vertex="1" parent="1">
-          <mxGeometry x="70" y="490" width="100" height="55" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-7" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="520" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="640" width="100" height="70" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-8" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_2;" parent="1" vertex="1">
+          <mxGeometry x="600" y="630" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="1">
-          <mxGeometry x="475" y="330" width="70" height="70" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-9" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_1;" parent="1" vertex="1">
+          <mxGeometry x="288.5" y="790" width="73" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-7" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="550" width="160" height="30" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-10" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;" parent="1" vertex="1">
+          <mxGeometry x="726" y="790" width="73" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-8" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="760" width="160" height="30" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="970" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-9" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_1;" vertex="1" parent="1">
-          <mxGeometry x="278.5" y="860" width="73" height="150" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="960" width="150" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-10" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;" vertex="1" parent="1">
-          <mxGeometry x="740" y="860" width="73" height="150" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="340" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1160" width="330" height="160" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-14" value="&lt;div&gt;Proxmox CE:&lt;/div&gt;&lt;div&gt;- Ubuntu server &quot;private&quot; with no port exposed to the public&lt;/div&gt;&lt;div&gt;- Ubuntu server &quot;public&quot; with ports exposed (i.e. Minecraft server)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1025" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1160" width="330" height="160" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-15" value="Lenovo ThinkCentre E31 (192.168.1.115)&lt;div&gt;- Intel Xeon E3-1245 V2&lt;/div&gt;&lt;div&gt;- 32GB ECC DDR3 RAM&lt;/div&gt;&lt;div&gt;- x1 Boot SSD&lt;/div&gt;&lt;div&gt;- x3 500GB HDD in ZFS RAIDZ1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="526" y="865" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="360" width="180" height="130" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-16" value="OPNSense:&lt;div&gt;- AdGuard Home&lt;/div&gt;&lt;div&gt;- Wireguard VPN&lt;/div&gt;&lt;div&gt;- Unbound DNS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="590" y="360" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-14" value="Lenovo ThinkCentre M700&lt;div&gt;- Intel i5-6500&lt;/div&gt;&lt;div&gt;- 16GB DDR4 RAM&lt;/div&gt;&lt;div&gt;- 1x 960GB SSD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1020" width="210" height="30" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-17" value="Netgear M4100-26G-POE Managed PoE Switch (192.168.1.109)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="540" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-15" value="Lenovo ThinkCentre E31&lt;div&gt;- Intel Xeon E3-1245 V2&lt;/div&gt;&lt;div&gt;- 32GB ECC DDR3 RAM&lt;/div&gt;&lt;div&gt;- x1 Boot SSD&lt;/div&gt;&lt;div&gt;- x3 500GB HDD in ZFS RAIDZ1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="671.5" y="1020" width="210" height="30" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-18" value="TP-Link TL-1008P PoE Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="588.75" y="660" width="182.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-16" value="OPNSense&lt;div&gt;Pi Hole&lt;/div&gt;&lt;div&gt;Wireguard VPN&lt;/div&gt;&lt;div&gt;Unbound DNS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="630" y="350" width="225" height="90" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-19" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.disk;" parent="1" vertex="1">
+          <mxGeometry x="830" y="840" width="35" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-17" value="Netgear M4100-26G-POE Managed PoE Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="397.5" y="572.5" width="225" height="90" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-21" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_hub;" parent="1" vertex="1">
+          <mxGeometry x="210" y="492.5" width="100" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-18" value="TP-Link TL-1008P PoE Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="418.75" y="794.5" width="182.5" height="50" as="geometry" />
+        <mxCell id="GjfVkco9CjI6PsuyNRYr-26" value="Extreme Networks WS-AP3825i Wireless Access Point flashed with OpenWrt (192.168.1.10)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="150" y="577.5" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-19" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.disk;" vertex="1" parent="1">
-          <mxGeometry x="940" y="910" width="35" height="50" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FF9933;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.disk;" vertex="1" parent="1">
+          <mxGeometry x="930" y="840" width="35" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-21" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_hub;" vertex="1" parent="1">
-          <mxGeometry x="750" y="625" width="100" height="85" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.disk;" vertex="1" parent="1">
+          <mxGeometry x="880" y="840" width="35" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-22" value="192.168.2.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="310" y="260" width="140" height="30" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_hub;" vertex="1" parent="1">
+          <mxGeometry x="892.5" y="600" width="100" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-23" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.printer;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1400" width="100" height="100" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-6" value="Extreme Networks WS-AP3825i Wireless Access Point flashed with OpenWrt (192.168.1.11)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="830" y="685" width="225" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="487" width="120" height="60" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-5" target="jQjBUP747iZEK8PiLITo-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-25" value="Kali Linux VM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="219" y="502" width="60" height="30" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-7" target="jQjBUP747iZEK8PiLITo-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GjfVkco9CjI6PsuyNRYr-26" value="Extreme Networks WS-AP3825i Wireless Access Point flashed with OpenWrt (ip)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="687.5" y="690" width="225" height="90" as="geometry" />
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-21" target="GjfVkco9CjI6PsuyNRYr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="sourcePoint" />
+            <mxPoint x="570" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.847;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-17" target="GjfVkco9CjI6PsuyNRYr-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="700" as="sourcePoint" />
+            <mxPoint x="680" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-8" target="eZAKL-NI2rm3DVFeDgER-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="820" as="sourcePoint" />
+            <mxPoint x="570" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-15" value="TrueNAS Scale:&lt;div&gt;- Syncthing&lt;/div&gt;&lt;div&gt;- NextCloud&lt;/div&gt;&lt;div&gt;- Paperless NGX&lt;/div&gt;&lt;div&gt;- 2FAuth&lt;/div&gt;&lt;div&gt;- HomePage&lt;/div&gt;&lt;div&gt;- Calibre&lt;/div&gt;&lt;div&gt;- Calibre-web&lt;/div&gt;&lt;div&gt;- FreshRSS&lt;/div&gt;&lt;div&gt;- Immich&lt;/div&gt;&lt;div&gt;- QBitTorrent&lt;/div&gt;&lt;div&gt;- SearXNG&lt;/div&gt;&lt;div&gt;- Vaultwarden&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1060" width="315" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-10" target="GjfVkco9CjI6PsuyNRYr-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="880" as="sourcePoint" />
+            <mxPoint x="570" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-17" value="Lenovo ThinkCentre M700 (192.168.1.5:8006)&lt;div&gt;- Intel i5-6500&lt;/div&gt;&lt;div&gt;- 16GB DDR4 RAM&lt;/div&gt;&lt;div&gt;- 1x 960GB SSD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="860" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eZAKL-NI2rm3DVFeDgER-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.056;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GjfVkco9CjI6PsuyNRYr-9" target="GjfVkco9CjI6PsuyNRYr-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="730" as="sourcePoint" />
+            <mxPoint x="590" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
